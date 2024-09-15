@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'master', url: 'https://github.com/kiran877/Terraform-EKS'
+                git branch: 'main', url: 'https://github.com/kiran877/Terraform-EKS'
             }
         }
         stage('Init') {
